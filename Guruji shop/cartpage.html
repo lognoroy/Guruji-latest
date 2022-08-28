@@ -30,6 +30,8 @@
 
     <!-- CSS Stylesheet Import Link -->
     <link rel="stylesheet" type="text/css" href="css/shop.css">
+    <link rel="stylesheet" type="text/css" href="css/cartpage.css">
+
 
 </head>
 <body>
@@ -47,6 +49,7 @@
             </a>
               <!-- <h3>Guruji</h3>    -->
               <ul class="nav-menu flexbox part1">
+              
                 <li><a href="../Guruji consult/consult.html">Consult with astrologers</a></li>
                 <li><a href="../Guruji blog/blog.html">Blog</a></li>
                 <li><a href="shop.html">Shop</a></li>
@@ -143,7 +146,7 @@
             <div class="check-view">
               <a href="payment.html" class="check" ><button>Checkout</button> </a>
               <a href="cartpage.html" class="view" ><button>view cart</button></a>
-            </div>          
+            </div>           
             
 
           
@@ -153,7 +156,6 @@
 
             <div id="main">
               <button class="openbtn" onclick="openNav()"><i class="bi bi-cart4" id="todo3"></i></button>  
-            
             </div>
         
           </div>
@@ -161,24 +163,104 @@
   </header>
 <!-- website part start**************************************************************** -->
 
-  <div class="real">
-    <p>To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.</p>
-    <br>
-    <label for="">Order ID</label>
-    <br>
-    <input type="text" placeholder="Order ID 123">
-    <br>
-    <br>
-    <br>
 
-    <label for="">Billing email</label>
-    <br>
-    <input type="text" placeholder="Billing email">
-    <br>
-    <button>Track</button>
+<div class="total">
+  <div class="left-total">
+      <!-- <hr> -->
+      <div class="hd com2">
+          <h4>Product</h4>
+          <h4>Product</h4>
+          <h4>Product</h4>
+          <h4>Product</h4>
+      </div>
+      <hr>
+      <div class="hd-1 com">
+
+          <i class="fa fa-close"></i>
+          <div class="img-center">
+              <img src="../Guruji home/img2/jar.jpg" alt="">
+          </div>
+
+          <div class="pg">
+              <h5>5 ratti Pearl South Sea (Moti)</h5>
+              <p>Addon: Loose stone</p>
+          </div>
+
+          <h5>₹3,856.00</h5>
+
+          <div class="little-box">
+              <i class="fa fa-minus"></i>
+              <h4>1</h4>
+              <i class="fa fa-plus"></i>
+
+          </div>
+
+          <h5 class="bold-right">₹3,856.00</h5>
+          
+      </div>
+
+      <hr>
+
+      <div class="hd-2 com">
+
+          <i class="fa fa-close"></i>
+          <div class="img-center">
+              <img src="../Guruji home/img2/jar.jpg" alt="">
+          </div>
+
+          <div class="pg">
+              <h5>5 ratti Pearl South Sea (Moti)</h5>
+              <p>Addon: Loose stone</p>
+          </div>
+
+          <h5>₹3,856.00</h5>
+
+          <div class="little-box">
+              <i class="fa fa-minus"></i>
+              <h4>1</h4>
+              <i class="fa fa-plus"></i>
+          </div>
+
+          <h5 class="bold-right">₹3,856.00</h5>
+          
+
+      </div>
+      <hr>
+      <div class="coupon">
+          <input type="number" placeholder="Coupon code">
+          <button class="">Apply coupon</button>
+          <button class="">Update cart</button>
+      </div>
+      
+      
   </div>
-  
-  
+
+
+  <div class="right-total">
+      <h2>Cart totals</h2>
+      <div class="sub">
+          <h5 class="bold-right">Subtotal</h5>
+          <h5 class="right-money">₹13,823.00</h5>
+      </div>
+      <hr>
+      <p class="bold-right">Shipping</p>
+      <p>Enter your address to view shipping options.</p>
+      <p>Calculate shipping</p>
+      <hr>
+      <div class="discount">
+          <!-- <h5>Guruji Discount (estimated for India)</h5> -->
+          <!-- <h5>₹13,823.00</h5> -->
+      </div>
+      <!-- <hr> -->
+      <div class="total-money">
+          <h4 class="bold-right">Total</h4>
+          <h4 class="total-right-money">₹13,823.00</h4>
+      </div>
+      <button>PROCEED TO CHECKOUT</button>
+  </div>
+
+</div>
+
   
 <!-- twelveth part start**************************************************************** -->
 <section id="sec12">
@@ -258,7 +340,7 @@
     <div class="second-last flexbox center">
 
         <div class="footer-pic">
-            <img src="img2/icon-only-small-size.png" alt="">
+            <img src="../Guruji home/img2/icon-only-small-size.png" alt="">
         </div>
 
         <h6>The best platform to take online consultation with astrologers.
@@ -283,6 +365,7 @@
 <!-- first part start******************************************************************** -->
 
 <script src="js/shop.js"></script>
+
 </body>
 </html>
 

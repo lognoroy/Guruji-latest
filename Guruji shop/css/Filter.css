@@ -488,7 +488,7 @@ header nav .navMenu a {
 
 .col-prob
 {
-  background-color: #ffc15e; 
+    background-color: #ffc15e; 
 
 }
 #sec12 hr
@@ -1244,9 +1244,10 @@ padding-right: 10px;
   }
 
   
+  
 .sidebar {
   height: 100%;
-  width: 28%;
+  width:0;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -1254,12 +1255,53 @@ padding-right: 10px;
   background-color: #ffc15e;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding:100px 0px 100px 0px ;
 
 }
 
+.check-view
+{
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  /* background-color: green; */
+  gap:15px;
+  align-items: center;
+}
+
+.check-view button
+{
+  height: 40px;
+    border-radius:4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    border: none;
+    align-items: center;
+    background-color: #913718;
+    height:50px;
+    width:150px;
+
+}
+.check
+{
+  font-size: 18px;
+  color: white;
+  /* background-color: rgb(128, 122, 0); */
+  
+
+}
+.view{
+  font-size: 18px;
+  color: white;
+  /* background-color: rgb(128, 0, 117); */
 
 
+  
+
+
+}
 
 .sidebar a {
   padding: 8px 8px 8px 32px;
