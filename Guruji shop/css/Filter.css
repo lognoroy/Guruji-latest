@@ -7,7 +7,7 @@
 }
 body
 {
-  background-color: #931510;
+  background-color: #ffc15e;
 
 }
 
@@ -484,6 +484,12 @@ header nav .navMenu a {
 
     padding-top: 0px;
     
+}
+
+.col-prob
+{
+  background-color: #ffc15e; 
+
 }
 #sec12 hr
 {
