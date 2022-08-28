@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+body
+{
+    background-color: #db5135 ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* background-color: rgb(95, 79, 169); */
+
+}
+.flexbox
+{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* first part start ***************************************************************/
+
+/* 
+@keyframes anim1 {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes anim2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+ */
+
+nav
+{
+    z-index: 10;
+    /* background-color: rgba(145, 55, 24, 1); */
+    background-color: #dc8b44;
+
+    padding:20px 2%;
+    width:100%;
+}
+
+
+.title
+{
+    display: flex;
+    gap:7px;
+    width: 60%;
+    letter-spacing:1px;
+    align-items: center;
+    color: white;
+}
+.title h3{
+    margin-right:20px;
+    margin-top:3px;
+}
+
+.logo
+{
+    width:200px;
+    /* background-color: aqua; */
+}
+
+.logo img
+{
+    /* height: 100px; */
+    width:100%;
+    /* background-color: #2bff39; */
+    background: none;
+    /* border-radius:15%; */
+
+}
+
+.option
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:40%;
+   
+}
+.option button{
+    height: 40px;
+    border-radius:8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    border: none;
+    align-items: center;
+    
+
+}
+.option .button{
+    background-color: #931510;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    z-index: 1;
+
+}
+
+.option #google_translate_element
+{
+    z-index: 0;
+   
+
+}
+
+
+.option .button2
+{
+    width: 120px;
+    background-color: #931510;
+    position: absolute;
+
+
+
+}
+#google_translate_element:hover{
+    opacity:0.8;
+}
+.button2:hover{
+    opacity:0.8;
+}
+
+.nav-menu
+{
+    list-style:none;
+    width: 60%;
+    font-family: Arial;
+
+
+}
+
+.sticky
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    display: inline-block;
+}
+nav .title a{
+    color:#931510 ;
+    
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav .option .button2 a{
+    color:#dc8b44;
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+nav .option .button1 a{
+    color: #931510 ;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+nav h3{
+    font-weight:bold;
+    font-size: 20px;
+
+
+}
+
+
+
+
+
+
+header nav .navMenu {
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav .navMenu li {
+    padding-top: 1px;
+}
+
+header nav .navMenu a {
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+
+/* second part start ***************************************************************/
+
+.total
+{
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 50px;
+    display: flex;
+
+}
+.little-box
+{
+    display: flex;
+    gap: 10px;
+}
+.coupon input{
+    height: 40px;
+    width: 200px;
+}
+
+.left-total
+{
+    /* background-color: rgb(135, 73, 194); */
+    padding: 30px;
+    width: 70%;
+}
+
+.left-total button{
+    border-radius:8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    border: none;
+    align-items: center;
+    margin-left: 50px;
+    margin-top:30px;
+    background-color: #931510;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    z-index: 1;
+}
+.com
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.com2
+{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:380px;
+    width:59%;
+    justify-content: space-between;
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* .com2 .hd{
+    margin-left: 30px;
+
+} */
+
+.img-center
+{
+    width:20%;
+}
+.img-center img
+{
+    width:40%;
+}
+.little-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-total
+{
+    background-color: #ffc15e;
+    width:30%;
+    padding: 30px;
+    border: 2px solid gray;
+
+}
+.right-total .sub
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-total .right-money
+{
+    color: #931510;
+}
+.total-right-money
+{
+    font-weight: bold;
+    color: #931510;
+
+}
+.bold-right
+{
+    font-weight: bold;
+
+}
+.right-total .discount
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.right-total .total-money
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.right-total button{
+    border-radius:8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    border: none;
+    align-items: center;
+    margin-left: 50px;
+    margin-top:30px;
+    background-color: #931510;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    z-index: 1;
+}
+/* twelve part ***************************************************************************************/
+
+#sec12
+{
+    background-color: #913718;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffc15e;
+    /* margin-bottom: 200px; */
+    padding-bottom:50px;
+}
+#sec12 hr
+{
+    border-color: #f76b2a ;
+}
+
+.four-section
+{
+    padding:50px;
+    color: red;
+    text-align: center;
+}
+
+
+/* #913718 */
+.four-section h4
+{
+
+    color:#ffc15e;
+    font-weight:600;
+}
+
+.four-section li
+{
+    color:#ffc15e ;
+    line-height: 30px;
+    
+}
+.second-last 
+{
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.second-last p
+{
+    width: 45%;
+    /* background-color: aqua; */
+    
+
+}
+.second-last .points 
+{
+    display: flex;
+    flex-direction: row;
+    width:35%;
+    gap:25px;
+}
+.second-last .points h6
+{
+   font-size: 15px;
+}
+
+.second-last .footer-pic
+{
+    width:8%;
+
+}
+.second-last .footer-pic img
+{
+    width:100%;
+
+}
+
+.second-last .footer-pic img
+{
+    width:100%;
+}
+
+.second-last
+{
+   padding-left: 50px;
+}
+
+.second-last .last
+{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.second-last .last h6
+{
+    margin-top: 100px;
+}
+
+
+.marginhr
+{
+    margin-bottom:35px;
+}
+
