@@ -6,20 +6,20 @@ function googleTranslateElementInit()
 
 
     
-var acc = document.getElementsByClassName("accordion");
-var i;
+// var acc = document.getElementsByClassName("accordion");
+// var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var panel = this.nextElementSibling;
+//     if (panel.style.display === "block") {
+//       panel.style.display = "none";
+//     } else {
+//       panel.style.display = "block";
+//     }
+//   });
+// }
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -72,7 +72,7 @@ function myFunction() {
   document.getElementById("dropdownMenuLink").classList.add("color-change");
 } 
 
-//accordition
+// accordition
 
 
 var acc = document.getElementsByClassName("accordion");
@@ -80,19 +80,16 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
+    // this.classList.toggle("active");
+    // var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
-    } else {
+    } 
+    else if (panel.style.display === "none"){
       panel.style.display = "block";
     }
   });
 }
-
-// chat start
-
-
 
 function openForm() {
   document.getElementById("myForm").style.display = "block";
@@ -165,8 +162,5 @@ function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
 
-
-
-// chat end
 
 
